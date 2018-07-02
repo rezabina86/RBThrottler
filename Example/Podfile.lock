@@ -1,0 +1,16 @@
+PODS:
+  - RBThrottler (0.1.0)
+
+DEPENDENCIES:
+  - RBThrottler (from `../`)
+
+EXTERNAL SOURCES:
+  RBThrottler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RBThrottler: 88292a2dd555a9c2b365ba7abcf6e6a1ebf3841f
+
+PODFILE CHECKSUM: e534f8091a2395720c5749a36dafaa65c4698c24
+
+COCOAPODS: 1.5.3

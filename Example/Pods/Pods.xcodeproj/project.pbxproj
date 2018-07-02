@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		102D0AC5732F1CDB8112D43F1B8F0FD7 /* Pods-RBThrottler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75747CCDF94699DA2C92C22203703C7E /* Pods-RBThrottler_Tests-dummy.m */; };
+		11E122962C8819890827E6ABC0257AE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		23010D42B9701F3EAB818D4882CB4EF4 /* Throttler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F6DF4941F470DF7ED0C6296987D1D /* Throttler.swift */; };
+		5A4B23D88DBE716E29C7BB3B53B6AA67 /* Pods-RBThrottler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78DC3E24B9614D4B1CA3DCCAF5F52B6E /* Pods-RBThrottler_Example-dummy.m */; };
+		632E0F9C2DB76DAEE73567D0C77650B4 /* Pods-RBThrottler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2AED3C6EF5833E1C25C2D1F9475B96E /* Pods-RBThrottler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EE924B469E4E4C7A2AC594F252AA67F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D50B2C4EA65682FB3FD87415002E4E40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D709A92262A1DA47EFB645E16B785C1C /* RBThrottler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17163E7991B2488F9E4BF3EC9C6CB0 /* RBThrottler-dummy.m */; };
+		E61B33721840779CECCE9729DDD53BCD /* Pods-RBThrottler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBB446C5EA1AC8CC774D94BC50E5DE43 /* Pods-RBThrottler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE11D9035EEE04823CABEF84734FC68A /* RBThrottler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C83BB2492D0120B5DFE34CE64C1B4EE /* RBThrottler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB018C175C68BA631B676D689433B432 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA3C5BD2F88B72CAC1A13D5FF17482F;
+			remoteInfo = "Pods-RBThrottler_Example";
+		};
+		F1E71DA2772543ABA0CDF322E6961BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF6B2EC33433398EF375BBAB60A60B5A;
+			remoteInfo = RBThrottler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0349478B7EC9EF32223536651E0777D1 /* Pods-RBThrottler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBThrottler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		128B0077B7A5EFBB70155D70F468F597 /* Pods-RBThrottler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBThrottler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		18641A12154082D722DF0BD411C1174C /* Pods-RBThrottler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RBThrottler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		18676F843717F7F72E86AA4451D7105E /* Pods-RBThrottler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RBThrottler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1EAC54EE7E7F9AF2CA91D06EEAC16878 /* Pods-RBThrottler_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBThrottler_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		251499935E1ED246BF0AE5942378C254 /* RBThrottler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RBThrottler.xcconfig; sourceTree = "<group>"; };
+		3D855745CF72DD0B302FC8C067B9DD78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F17163E7991B2488F9E4BF3EC9C6CB0 /* RBThrottler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RBThrottler-dummy.m"; sourceTree = "<group>"; };
+		4304309F4016715022C00B1BC62294B9 /* RBThrottler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RBThrottler.modulemap; sourceTree = "<group>"; };
+		4BB2BC158B3DD7F1FDF69AD73DE2AE44 /* Pods-RBThrottler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RBThrottler_Tests.modulemap"; sourceTree = "<group>"; };
+		4BD97F6C38A9F4230072E1EED227333D /* RBThrottler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RBThrottler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		510F6DF4941F470DF7ED0C6296987D1D /* Throttler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Throttler.swift; path = RBThrottler/Classes/Throttler.swift; sourceTree = "<group>"; };
+		5BAF3F67705C26312E2A20BA9B36C4F2 /* Pods-RBThrottler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RBThrottler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75747CCDF94699DA2C92C22203703C7E /* Pods-RBThrottler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RBThrottler_Tests-dummy.m"; sourceTree = "<group>"; };
+		78DC3E24B9614D4B1CA3DCCAF5F52B6E /* Pods-RBThrottler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RBThrottler_Example-dummy.m"; sourceTree = "<group>"; };
+		829250B0DA308EB77977A5ED96B6E762 /* Pods-RBThrottler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBThrottler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		849F611A2DE64AB454507ED203011B8D /* RBThrottler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = RBThrottler.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88DA6DCA8D2AA9017D96A6034CE92AC1 /* Pods-RBThrottler_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBThrottler_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C83BB2492D0120B5DFE34CE64C1B4EE /* RBThrottler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBThrottler-umbrella.h"; sourceTree = "<group>"; };
+		A6202920B0142629472C736CD3609473 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A8F667219C9F7935A118BC4869E31639 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B485F20E149035920E6734EA32797983 /* Pods-RBThrottler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RBThrottler_Example.modulemap"; sourceTree = "<group>"; };
+		B60D2ACD8A41B86F5D4EEB93B6FF433C /* Pods_RBThrottler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBThrottler_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AED3C6EF5833E1C25C2D1F9475B96E /* Pods-RBThrottler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RBThrottler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D44262528A4D52CC6F7594F981C05F4E /* Pods-RBThrottler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RBThrottler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DA194E5F5C551E62914957D451748669 /* RBThrottler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RBThrottler-prefix.pch"; sourceTree = "<group>"; };
+		DA46C0FBE00430B909DCB2C06809261B /* Pods-RBThrottler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBThrottler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E178E9A5DB2893F9EA08AA29B58F7FB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E2F4907759AB6C60C979EBE587B7778E /* Pods_RBThrottler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RBThrottler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99A444CBAC83379EFB2A80C11A5A03F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18827C5CC92983E2318FDBBE4E185E8 /* Pods-RBThrottler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RBThrottler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBB446C5EA1AC8CC774D94BC50E5DE43 /* Pods-RBThrottler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RBThrottler_Example-umbrella.h"; sourceTree = "<group>"; };
+		FCEB44FE99A14458781AE0C0A7B2E75F /* Pods-RBThrottler_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RBThrottler_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4267AD63E533BEF2A8BCCF83C24B13CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50B2C4EA65682FB3FD87415002E4E40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF6BC36E3A4A2718AF644D2303AE145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EE924B469E4E4C7A2AC594F252AA67F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD72C57159C45CE9942435881F8CC79C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E122962C8819890827E6ABC0257AE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		052875CE92F3E1B9543F444E01CCE85D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8F667219C9F7935A118BC4869E31639 /* Info.plist */,
+				4304309F4016715022C00B1BC62294B9 /* RBThrottler.modulemap */,
+				251499935E1ED246BF0AE5942378C254 /* RBThrottler.xcconfig */,
+				3F17163E7991B2488F9E4BF3EC9C6CB0 /* RBThrottler-dummy.m */,
+				DA194E5F5C551E62914957D451748669 /* RBThrottler-prefix.pch */,
+				9C83BB2492D0120B5DFE34CE64C1B4EE /* RBThrottler-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RBThrottler";
+			sourceTree = "<group>";
+		};
+		06396A88A0E0049E22318A6DB18294A2 /* Pods-RBThrottler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E99A444CBAC83379EFB2A80C11A5A03F /* Info.plist */,
+				4BB2BC158B3DD7F1FDF69AD73DE2AE44 /* Pods-RBThrottler_Tests.modulemap */,
+				18676F843717F7F72E86AA4451D7105E /* Pods-RBThrottler_Tests-acknowledgements.markdown */,
+				F18827C5CC92983E2318FDBBE4E185E8 /* Pods-RBThrottler_Tests-acknowledgements.plist */,
+				75747CCDF94699DA2C92C22203703C7E /* Pods-RBThrottler_Tests-dummy.m */,
+				1EAC54EE7E7F9AF2CA91D06EEAC16878 /* Pods-RBThrottler_Tests-frameworks.sh */,
+				FCEB44FE99A14458781AE0C0A7B2E75F /* Pods-RBThrottler_Tests-resources.sh */,
+				D2AED3C6EF5833E1C25C2D1F9475B96E /* Pods-RBThrottler_Tests-umbrella.h */,
+				0349478B7EC9EF32223536651E0777D1 /* Pods-RBThrottler_Tests.debug.xcconfig */,
+				128B0077B7A5EFBB70155D70F468F597 /* Pods-RBThrottler_Tests.release.xcconfig */,
+			);
+			name = "Pods-RBThrottler_Tests";
+			path = "Target Support Files/Pods-RBThrottler_Tests";
+			sourceTree = "<group>";
+		};
+		2B1F10E4706581FC32A8406636B211D8 /* RBThrottler */ = {
+			isa = PBXGroup;
+			children = (
+				510F6DF4941F470DF7ED0C6296987D1D /* Throttler.swift */,
+				585049D1CE3CDFADB079BAE5F5236200 /* Pod */,
+				052875CE92F3E1B9543F444E01CCE85D /* Support Files */,
+			);
+			name = RBThrottler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3B95C0313320D88AE0697A32B2E66A49 /* Pods-RBThrottler_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3D855745CF72DD0B302FC8C067B9DD78 /* Info.plist */,
+				B485F20E149035920E6734EA32797983 /* Pods-RBThrottler_Example.modulemap */,
+				5BAF3F67705C26312E2A20BA9B36C4F2 /* Pods-RBThrottler_Example-acknowledgements.markdown */,
+				18641A12154082D722DF0BD411C1174C /* Pods-RBThrottler_Example-acknowledgements.plist */,
+				78DC3E24B9614D4B1CA3DCCAF5F52B6E /* Pods-RBThrottler_Example-dummy.m */,
+				DA46C0FBE00430B909DCB2C06809261B /* Pods-RBThrottler_Example-frameworks.sh */,
+				88DA6DCA8D2AA9017D96A6034CE92AC1 /* Pods-RBThrottler_Example-resources.sh */,
+				FBB446C5EA1AC8CC774D94BC50E5DE43 /* Pods-RBThrottler_Example-umbrella.h */,
+				D44262528A4D52CC6F7594F981C05F4E /* Pods-RBThrottler_Example.debug.xcconfig */,
+				829250B0DA308EB77977A5ED96B6E762 /* Pods-RBThrottler_Example.release.xcconfig */,
+			);
+			name = "Pods-RBThrottler_Example";
+			path = "Target Support Files/Pods-RBThrottler_Example";
+			sourceTree = "<group>";
+		};
+		585049D1CE3CDFADB079BAE5F5236200 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A6202920B0142629472C736CD3609473 /* LICENSE */,
+				849F611A2DE64AB454507ED203011B8D /* RBThrottler.podspec */,
+				E178E9A5DB2893F9EA08AA29B58F7FB8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7BD1DC298B4528FAF9302DE1A1A80781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B60D2ACD8A41B86F5D4EEB93B6FF433C /* Pods_RBThrottler_Example.framework */,
+				E2F4907759AB6C60C979EBE587B7778E /* Pods_RBThrottler_Tests.framework */,
+				4BD97F6C38A9F4230072E1EED227333D /* RBThrottler.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8D004DFA05A39E30EDC6004A8B999149 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7BD1DC298B4528FAF9302DE1A1A80781 /* Products */,
+				E54E1F54ED5CF040AA61CCB951407304 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D004DFA05A39E30EDC6004A8B999149 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B1F10E4706581FC32A8406636B211D8 /* RBThrottler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E54E1F54ED5CF040AA61CCB951407304 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B95C0313320D88AE0697A32B2E66A49 /* Pods-RBThrottler_Example */,
+				06396A88A0E0049E22318A6DB18294A2 /* Pods-RBThrottler_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BC3556CCAD537639054983FAB8D90B43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632E0F9C2DB76DAEE73567D0C77650B4 /* Pods-RBThrottler_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07F159B4AF06345849FAD0FA2DF7BB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61B33721840779CECCE9729DDD53BCD /* Pods-RBThrottler_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4D9914AEE9B7D79D9C57A319E77505 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE11D9035EEE04823CABEF84734FC68A /* RBThrottler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5AA3C5BD2F88B72CAC1A13D5FF17482F /* Pods-RBThrottler_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70034624AD8D09EDDE090973E7F7AE04 /* Build configuration list for PBXNativeTarget "Pods-RBThrottler_Example" */;
+			buildPhases = (
+				72CFB86DB127C1313B172C9BAB25DD25 /* Sources */,
+				9DF6BC36E3A4A2718AF644D2303AE145 /* Frameworks */,
+				C07F159B4AF06345849FAD0FA2DF7BB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2A67AE94378BC10525714B31EF3A622 /* PBXTargetDependency */,
+			);
+			name = "Pods-RBThrottler_Example";
+			productName = "Pods-RBThrottler_Example";
+			productReference = B60D2ACD8A41B86F5D4EEB93B6FF433C /* Pods_RBThrottler_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A31446F3C4DDB0B6F21BE73955F7B2C2 /* Pods-RBThrottler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B07995F8B6EB41CEBA0BB646042008EA /* Build configuration list for PBXNativeTarget "Pods-RBThrottler_Tests" */;
+			buildPhases = (
+				566350110D04E15661834EB3DE2DA793 /* Sources */,
+				4267AD63E533BEF2A8BCCF83C24B13CF /* Frameworks */,
+				BC3556CCAD537639054983FAB8D90B43 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FF8C5CD334FC5542F9B46BD876411D5 /* PBXTargetDependency */,
+			);
+			name = "Pods-RBThrottler_Tests";
+			productName = "Pods-RBThrottler_Tests";
+			productReference = E2F4907759AB6C60C979EBE587B7778E /* Pods_RBThrottler_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF6B2EC33433398EF375BBAB60A60B5A /* RBThrottler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F86285BC6295CFA48CA7718155BD61E5 /* Build configuration list for PBXNativeTarget "RBThrottler" */;
+			buildPhases = (
+				0643BD4A593207A562290DA616B1A4D7 /* Sources */,
+				AD72C57159C45CE9942435881F8CC79C /* Frameworks */,
+				CF4D9914AEE9B7D79D9C57A319E77505 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RBThrottler;
+			productName = RBThrottler;
+			productReference = 4BD97F6C38A9F4230072E1EED227333D /* RBThrottler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7BD1DC298B4528FAF9302DE1A1A80781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA3C5BD2F88B72CAC1A13D5FF17482F /* Pods-RBThrottler_Example */,
+				A31446F3C4DDB0B6F21BE73955F7B2C2 /* Pods-RBThrottler_Tests */,
+				FF6B2EC33433398EF375BBAB60A60B5A /* RBThrottler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0643BD4A593207A562290DA616B1A4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D709A92262A1DA47EFB645E16B785C1C /* RBThrottler-dummy.m in Sources */,
+				23010D42B9701F3EAB818D4882CB4EF4 /* Throttler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		566350110D04E15661834EB3DE2DA793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102D0AC5732F1CDB8112D43F1B8F0FD7 /* Pods-RBThrottler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72CFB86DB127C1313B172C9BAB25DD25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4B23D88DBE716E29C7BB3B53B6AA67 /* Pods-RBThrottler_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FF8C5CD334FC5542F9B46BD876411D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RBThrottler_Example";
+			target = 5AA3C5BD2F88B72CAC1A13D5FF17482F /* Pods-RBThrottler_Example */;
+			targetProxy = EB018C175C68BA631B676D689433B432 /* PBXContainerItemProxy */;
+		};
+		D2A67AE94378BC10525714B31EF3A622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RBThrottler;
+			target = FF6B2EC33433398EF375BBAB60A60B5A /* RBThrottler */;
+			targetProxy = F1E71DA2772543ABA0CDF322E6961BAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C186F2F5F9538F260696360D8927312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251499935E1ED246BF0AE5942378C254 /* RBThrottler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RBThrottler/RBThrottler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RBThrottler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RBThrottler/RBThrottler.modulemap";
+				PRODUCT_MODULE_NAME = RBThrottler;
+				PRODUCT_NAME = RBThrottler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		676E1A9795C7272CC190F3A4E644E944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44262528A4D52CC6F7594F981C05F4E /* Pods-RBThrottler_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RBThrottler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RBThrottler_Example/Pods-RBThrottler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7D99B0258B4269AB0DFC96098A343169 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 128B0077B7A5EFBB70155D70F468F597 /* Pods-RBThrottler_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RBThrottler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RBThrottler_Tests/Pods-RBThrottler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A85AF974AC119A6521FEAFDF81153EA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 251499935E1ED246BF0AE5942378C254 /* RBThrottler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RBThrottler/RBThrottler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RBThrottler/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RBThrottler/RBThrottler.modulemap";
+				PRODUCT_MODULE_NAME = RBThrottler;
+				PRODUCT_NAME = RBThrottler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BD1755C2DB0BED8080B973540A6A293D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829250B0DA308EB77977A5ED96B6E762 /* Pods-RBThrottler_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RBThrottler_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RBThrottler_Example/Pods-RBThrottler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCC7180CB2D6CF08854F82DD73F3A131 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0349478B7EC9EF32223536651E0777D1 /* Pods-RBThrottler_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RBThrottler_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RBThrottler_Tests/Pods-RBThrottler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70034624AD8D09EDDE090973E7F7AE04 /* Build configuration list for PBXNativeTarget "Pods-RBThrottler_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676E1A9795C7272CC190F3A4E644E944 /* Debug */,
+				BD1755C2DB0BED8080B973540A6A293D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B07995F8B6EB41CEBA0BB646042008EA /* Build configuration list for PBXNativeTarget "Pods-RBThrottler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCC7180CB2D6CF08854F82DD73F3A131 /* Debug */,
+				7D99B0258B4269AB0DFC96098A343169 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F86285BC6295CFA48CA7718155BD61E5 /* Build configuration list for PBXNativeTarget "RBThrottler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85AF974AC119A6521FEAFDF81153EA5 /* Debug */,
+				2C186F2F5F9538F260696360D8927312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

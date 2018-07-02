@@ -7,17 +7,18 @@
 //
 
 import UIKit
+import RBThrottler
 
 class ViewController: UIViewController {
+    
+    var throttler : Throttler?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        self.throttler = Throttler(seconds: 3)
+        self.throttler?.throttle(block: {
+            print("Hello, world!")
+        })
     }
 
 }

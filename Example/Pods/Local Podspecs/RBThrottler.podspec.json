@@ -1,0 +1,22 @@
+{
+  "name": "RBThrottler",
+  "version": "0.1.0",
+  "summary": "A short description of RBThrottler.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rezabina86/RBThrottler",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rezabina86": "tavakolibina@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/rezabina86/RBThrottler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RBThrottler/Classes/**/*"
+}

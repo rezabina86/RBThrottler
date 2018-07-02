@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RBThrottler'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RBThrottler.'
+  s.summary          = 'Throttling wraps a block of code with throttling logic, guaranteeing that an action will never be called more than once each specified interval.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  "Throttling wraps a block of code with throttling logic, guaranteeing that an action will never be called more than once each specified interval. Throttle is typically used inside search boxes in order to limit the number of backend requests while user is typing for a query; without throttling when an user types fast, backend server may receive tons of non useful request which are quite costly. Moreover client will be busy updating continuously the UI with no longer relevant results: the entire behaviour causes your app to look cheap and the logic unnecessary complex."
                        DESC
 
   s.homepage         = 'https://github.com/rezabina86/RBThrottler'

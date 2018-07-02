@@ -1,0 +1,6 @@
+framework module RBThrottler {
+  umbrella header "RBThrottler-umbrella.h"
+
+  export *
+  module * { export * }
+}
