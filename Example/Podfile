@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RBThrottler_Example' do
+  pod 'RBThrottler', :path => '../'
+
+  target 'RBThrottler_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
