@@ -5,9 +5,28 @@
 [![License](https://img.shields.io/cocoapods/l/RBThrottler.svg?style=flat)](https://cocoapods.org/pods/RBThrottler)
 [![Platform](https://img.shields.io/cocoapods/p/RBThrottler.svg?style=flat)](https://cocoapods.org/pods/RBThrottler)
 
+Throttling wraps a block of code with throttling logic, guaranteeing that an action will never be called more than once each specified interval.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+```
+var throttler : Throttler?
+var counter = 0
+
+override func viewDidLoad() {
+   super.viewDidLoad()
+   self.throttler = Throttler(seconds: 5)
+}
+
+@IBAction func buttonDidTapped(_ sender: UIButton) {
+   self.counter += 1
+   self.throttler?.throttle(block: {
+      print(self.counter)
+   })
+}
+```
 
 ## Requirements
 
