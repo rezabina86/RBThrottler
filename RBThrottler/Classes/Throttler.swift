@@ -32,9 +32,7 @@ public class Throttler {
 }
 
 extension Date {
-    
     static func second(from referenceDate : Date) -> Int {
         return Int(Date().timeIntervalSince(referenceDate).rounded())
     }
-    
 }
